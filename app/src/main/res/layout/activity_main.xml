@@ -86,6 +86,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_view"
+            app:layout_constraintBottom_toBottomOf="@+id/passwordEtx"
+            app:layout_constraintEnd_toEndOf="@+id/passwordEtx"
+            app:layout_constraintTop_toTopOf="@+id/passwordEtx" />
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_logIn"
